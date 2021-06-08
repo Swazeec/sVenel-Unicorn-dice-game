@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-image: url('./images/unicorn-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.container-fluid{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+button{
+    font-weight: 300;
+}
+.over:hover{
+    font-weight: bold;
+}
+.score{
+    font-size: 4em;
+    font-weight: 100;
+    color: #CF2D2D;
+}
+.current{
+    width: 200px;
+    margin: auto;
+    background: url('./images/gold-glitter-bg.jpg');
+}
+
+.active{
+    color: #CF2D2D;
+    font-weight: 700;  
+}
+
+
+#diceResult img{
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgba(97, 97, 97, 0.541);
+    border-radius: 25px;
+}
+
