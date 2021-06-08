@@ -69,7 +69,7 @@ let currentPlayer, currentScore, globalScore1, globalScore2, diceResult
         // générer nombre aléatoire entre 1 et 6 dans diceResult
         diceResult = Math.floor(Math.random()*Math.floor(6)) +1
 
-        diceFace.innerHTML = '<img src="images/de-'+diceResult+ '.png" alt="dé, face ' + diceResult +'">'
+        diceFace.innerHTML = '<img src="images/de-'+diceResult+ '.jpg" alt="dé, face ' + diceResult +'">'
 
 
         // si diceResult !=1, ajouter le résultat au current et l'afficher en HTML
